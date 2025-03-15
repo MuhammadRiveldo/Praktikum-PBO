@@ -1,6 +1,6 @@
 # Muhammad Riveldo Hermawan Putra
 # 122140037
-# PBO RF
+# Tugas 3-2 Tech: AI-Powered Role Management dalam Startup
 
 # Kelas Employee merepresentasikan seorang karyawan
 class Employee:
