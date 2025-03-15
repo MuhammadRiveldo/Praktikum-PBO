@@ -1,6 +1,6 @@
 # Muhammad Riveldo Hermawan Putra
 # 122140037
-# PBO RF
+# Tugas 3-1 Agriculture: Smart Farming System dengan Abstraksi dan Polimorfisme
 from abc import ABC, abstractmethod  # Mengimpor modul ABC untuk membuat kelas abstrak
 
 # Kelas abstrak Plant
@@ -18,9 +18,7 @@ class Plant(ABC):
     @abstractmethod
     def grow(self):
         pass  # Metode abstrak yang harus diimplementasikan di subclass
-
-# Randy Hendriyawan
-# 122140171
+        
     def calculate_needs(self, rainfall, soil_moisture):
         # Mengurangi kebutuhan air jika curah hujan lebih dari 5 mm
         if rainfall > 5:
@@ -58,11 +56,8 @@ class CornPlant(Plant):
     def grow(self):
         # Implementasi metode grow untuk jagung
         print("Corn is growing in the farm")
-
-# Randy Hendriyawan
-# 122140171
+        
 # Simulasi kondisi cuaca
-
 def simulate_weather(plant, rainfall, soil_moisture):
     plant.grow()  # Memanggil metode grow dari tanaman
     print(f"Weather Report: Rainfall = {rainfall} mm, Soil Moisture = {soil_moisture}%")  # Menampilkan kondisi cuaca
@@ -80,6 +75,3 @@ if __name__ == "__main__":
 
     # Simulasi cuaca untuk CornPlant
     simulate_weather(corn, rainfall=2, soil_moisture=40)
-
-# Randy Hendriyawan
-# 122140171
