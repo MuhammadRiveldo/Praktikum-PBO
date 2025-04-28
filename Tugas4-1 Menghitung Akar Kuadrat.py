@@ -1,6 +1,6 @@
 # Muhammad Riveldo Hermawan Putra
 # 122140037
-# Tugas 4 Praktikum Menghitung Akar Kuadra
+# Tugas 4-1 Menghitung Akar KuadraT
 
 import math  # Mengimpor modul math untuk menggunakan fungsi matematika seperti sqrt (akar kuadrat)
 
