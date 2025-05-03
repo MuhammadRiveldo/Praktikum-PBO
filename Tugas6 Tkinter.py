@@ -1,3 +1,7 @@
+# Muhammad Riveldo Hermawan Putra
+# 122140037
+# Tugas 6 Tkinter
+
 import tkinter as tk
 from tkinter import messagebox  # Untuk menampilkan pesan pop-up
 
